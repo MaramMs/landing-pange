@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch Landing Page Design.</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Watch</a>
+            <div class="toggle" onclick="toggle();"></div>
+        </header>
+
+        <div class="content">
+            <div class="contentBx">
+                <h2>Future on <br> your Hand</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis fuga repellendus iusto, a, 
+                    expedita necessitatibus tempora eaque,
+                     aliquid molestiae reprehenderit maxime optio quidem magnam est placeat odit voluptas facilis.
+                
+                
+                </p>
+                    <a href="#">Buy Now</a>
+            </div>
+
+            <div class="imgBx">
+                <img src="./images/watch.png" alt="">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+        </ul>
+
+        <div class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </div>
+    </section>
+    <script type="text/javascript">
+    function toggle(){
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.classList.toggle('active');
+        banner.classList.toggle('active');
+    }
+
+    </script>
+</body>
+</html>
