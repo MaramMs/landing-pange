@@ -202,14 +202,14 @@ transition-delay: 1s;
     .banner:before{
         top:100px;
         left: 0;
-        width: 170px;
+        width: 150px;
         height: 310px;
     }
     .banner:after{
-        bottom: 0;
-        right:0;
-        width: 80px;
-        height: 60px;
+        bottom: 0px;
+        right: 0;
+        width: 150px;
+        height: 310px;
     }
     .content{
         flex-direction: column-reverse;
@@ -227,5 +227,6 @@ transition-delay: 1s;
     }
     .sci{
         bottom: 0px;
+        position: static;
     }
 }
